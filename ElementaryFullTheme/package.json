@@ -1,0 +1,12 @@
+{
+  "name": "N1-elementaryFull",
+  "theme": "elementaryFull",
+  "version": "0.0.1",
+  "description": "Theme to make Nylas N1 more/fully elementary OS friendly",
+  "license": "GPL-3.0",
+  "engines": {
+    "nylas": "*"
+  },
+  "styleSheets": ["controls"],
+  "private": true
+}
