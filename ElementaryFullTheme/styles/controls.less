@@ -1,0 +1,36 @@
+@import "variables";
+
+body.platform-linux {
+
+  .sheet-toolbar-container {
+    background-image: -webkit-linear-gradient(top, @titlebar-color, @titlebar-gradient-bottom);
+    box-shadow: none;
+  }
+  #account-switcher, #account-sidebar {
+    background-color: @sidebar;
+    border-right: 1px solid @separator-border-color;
+  }
+
+  #account-switcher .item.selected, #account-sidebar .item.selected {
+    background-image: -webkit-linear-gradient(top, @selected-item-gradient-top, @selected-item-gradient-bottom);
+    margin-left: @margin-hack;
+    padding-left: @padding-hack;
+    border-top: 2px solid @base-border-color;
+    border-bottom: 1px solid @base-border-color;
+  }
+
+  .sheet-toolbar{
+    border-bottom: 1px solid @separator-border-color;
+    .btn-toolbar{
+      background-image: -webkit-linear-gradient(top, @titlebar-color, @titlebar-gradient-bottom);
+      padding: @toolbar-btn-padding;
+      padding-bottom: @toolbar-btn-padding-bottom;
+    }
+  }
+  #account-switcher .item.selected img.content-mask, #account-sidebar .item.selected img.content-mask{
+    background-color: @sidebar-item-color;
+  }
+  #account-switcher .item.selected, #account-sidebar .item.selected{
+    color: @sidebar-item-color;
+  }
+}
