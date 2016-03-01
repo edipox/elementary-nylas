@@ -1,7 +1,7 @@
 {
   "name": "N1-elementaryFull",
   "theme": "elementaryFull",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Theme to make Nylas N1 more/fully elementary OS friendly",
   "license": "GPL-3.0",
   "engines": {
