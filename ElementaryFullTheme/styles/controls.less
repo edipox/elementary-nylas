@@ -6,12 +6,12 @@ body.platform-linux {
     background-image: -webkit-linear-gradient(top, @titlebar-color, @titlebar-gradient-bottom);
     box-shadow: none;
   }
-  #account-switcher, #account-sidebar {
-    background-color: @sidebar;
+  #account-switcher, .account-sidebar {
+    background: @sidebar;
     border-right: 1px solid @separator-border-color;
   }
 
-  #account-switcher .item.selected, #account-sidebar .item.selected {
+  #account-switcher .item.selected, .account-sidebar .item.selected {
     background-image: -webkit-linear-gradient(top, @selected-item-gradient-top, @selected-item-gradient-bottom);
     margin-left: @margin-hack;
     padding-left: @padding-hack;
@@ -31,10 +31,10 @@ body.platform-linux {
       background-image: -webkit-linear-gradient(top, @titlebar-color, @titlebar-gradient-bottom);
     }
   }
-  #account-switcher .item.selected img.content-mask, #account-sidebar .item.selected img.content-mask{
-    background-color: @sidebar-item-color;
+  #account-switcher .item.selected img.content-mask, .account-sidebar .item.selected img.content-mask{
+    background: @sidebar-item-color;
   }
-  #account-switcher .item.selected, #account-sidebar .item.selected{
+  #account-switcher .item.selected, .account-sidebar .item.selected{
     color: @sidebar-item-color;
   }
 }
