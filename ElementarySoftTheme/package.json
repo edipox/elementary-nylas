@@ -1,5 +1,6 @@
 {
   "name": "N1-elementarySoft",
+  "displayName": "ElementarySoft",
   "theme": "elementarySoft",
   "version": "0.0.6",
   "description": "Theme to make Nylas N1 more elementary OS friendly",
