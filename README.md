@@ -21,3 +21,8 @@ Themes for [Nylas N1 desktop email client](https://www.nylas.com/n1 "N1 site") i
 3. If you downloaded the zip file you have to unzip it. 
 4. On the N1 menu, select `Preferences > General > Select theme > Install new theme...`.
 5. Find the directory for this theme, there 2 sub directories ElementarySoft and ElementaryFull, select one of them to install it. :tada:
+
+
+
+
+[Buy me a coffee :coffee::heart:](http://ko-fi.com/A553N9)
